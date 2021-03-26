@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alisaTmFront/static/css/main.56d2cd51.chunk.css",
+    "main.js": "/alisaTmFront/static/js/main.96622f88.chunk.js",
+    "main.js.map": "/alisaTmFront/static/js/main.96622f88.chunk.js.map",
+    "runtime-main.js": "/alisaTmFront/static/js/runtime-main.59a8e413.js",
+    "runtime-main.js.map": "/alisaTmFront/static/js/runtime-main.59a8e413.js.map",
+    "static/js/2.ebe5ec15.chunk.js": "/alisaTmFront/static/js/2.ebe5ec15.chunk.js",
+    "static/js/2.ebe5ec15.chunk.js.map": "/alisaTmFront/static/js/2.ebe5ec15.chunk.js.map",
+    "index.html": "/alisaTmFront/index.html",
+    "static/css/main.56d2cd51.chunk.css.map": "/alisaTmFront/static/css/main.56d2cd51.chunk.css.map",
+    "static/js/2.ebe5ec15.chunk.js.LICENSE.txt": "/alisaTmFront/static/js/2.ebe5ec15.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/alisaTmFront/static/media/Gilroy-Regular.fa652e76.ttf",
+    "static/media/logo.d550912e.svg": "/alisaTmFront/static/media/logo.d550912e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59a8e413.js",
+    "static/js/2.ebe5ec15.chunk.js",
+    "static/css/main.56d2cd51.chunk.css",
+    "static/js/main.96622f88.chunk.js"
+  ]
+}
