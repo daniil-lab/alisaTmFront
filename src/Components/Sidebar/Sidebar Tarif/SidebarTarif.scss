@@ -1,0 +1,67 @@
+.sidebar-tarif-block {
+    padding-left: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #fff;
+
+    .sidebar-tarif-header-block {
+        padding-top: 20px;
+
+        .sidebar-tarif-header {
+            font-size: 15px;
+            color: #fff;
+        }
+
+        .sidebar-tarif-description {
+            font-size: 22px;
+            padding: 8px 0;
+            background: -webkit-linear-gradient(
+                rgb(248, 200, 83),
+                rgb(247, 139, 83)
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600 !important;
+        }
+    }
+
+    .sidebar-tarif-body {
+        .sidebar-tarif-status-text {
+            width: 80%;
+            padding-top: 10px;
+            color: #fff;
+        }
+
+        .sidebar-tarif-progress-bar {
+            height: 4px;
+            border-radius: 6px;
+            width: 90%;
+            background-color: #dce0e6;
+            margin-top: 15px;
+
+            &.active {
+                height: 100%;
+                width: 60%;
+                border-radius: 6px;
+                background: -webkit-linear-gradient(
+                    rgb(248, 200, 83),
+                    rgb(247, 139, 83)
+                );
+            }
+        }
+    }
+
+    .sidebar-tarif-footer-block {
+        padding: 30px 0;
+        
+        .sidebar-tarif-footer {
+            background: -webkit-linear-gradient(
+                rgb(248, 200, 83),
+                rgb(247, 139, 83)
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    }
+}

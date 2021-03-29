@@ -1,0 +1,24 @@
+.sidebar-notification-block {
+    width: 90%;
+    height: auto;
+    background-color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 15px;
+    overflow-wrap: break-word;
+    padding: 5px;
+
+    .sidebar-notification-text {
+        color: #004146;
+        font-weight: 600;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .sidebar-notification-description {
+        color: #004146;
+        font-size: 13px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+}

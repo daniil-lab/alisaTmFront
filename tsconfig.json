@@ -15,10 +15,17 @@
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
     // Settings for React.
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@Redux/*": ["src/Utils/Redux/*"],
+      "@Assets/*": ["src/assets/*"]
+    }
   },
   "include": [
-    "src"
+    "src",
+    "src/custom.d.ts"
   ],
   "exclude": [
     "public"
