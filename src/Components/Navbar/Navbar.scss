@@ -1,3 +1,10 @@
 .navbar {
     height: 84px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-top-left-radius: 24px;
+    padding: 0 45px;
 }

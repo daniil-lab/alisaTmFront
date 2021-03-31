@@ -1,21 +1,14 @@
 import React from 'react';
+import NavbarFunctions from './Navbar Functions/NavbarFunctions';
+import NavbarSearch from './Navbar Search/NavbarSearch';
 
 import './Navbar.scss';
 
 const Navbar: React.FunctionComponent = () => {
     return (
         <div className="navbar">
-            <div className="navbar-search-block">
-                <input className="navbar-search" type="text" />
-            </div>
-
-            <div className="navbar-buttons">
-                test
-            </div>
-
-            <div className="navbar-actions">
-                test
-            </div>
+            <NavbarSearch />
+            <NavbarFunctions />
         </div>
     );
 };

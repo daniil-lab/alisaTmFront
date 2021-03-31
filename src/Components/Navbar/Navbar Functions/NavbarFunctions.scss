@@ -1,0 +1,81 @@
+.navbar-functions-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-buttons {
+    display: flex;
+    flex-direction: row;
+
+    .navbar-wallet-course-block {
+        border: 1px solid #B1B5C1;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 32px;
+        cursor: pointer;
+
+        .navbar-wallet-course {
+            font-size: 14px;
+            color: #B1B5C1;
+
+            &.primary {
+                color: #49BFF2;
+            }
+        }
+    }
+
+    .navbar-add-button-block {
+        padding: 10px 20px;
+        align-items: center;
+        display: flex;
+        background: -webkit-linear-gradient(
+            rgb(248, 200, 83),
+            rgb(247, 139, 83)
+        );
+        border-radius: 32px;
+        margin-left: 20px;
+        cursor: pointer;
+
+        .navbar-add-button {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+
+            &.primary {
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+.navbar-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .navbar-dropdown-block {
+        color: #B1B5C1;
+        display: flex;
+        padding: 0 15px 0px 30px;
+        align-items: center;
+        cursor: pointer;
+
+        .navbar-dropdown {
+            padding: 3px;
+        }
+    }
+
+    .navbar-actions-list {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-size: 20px;
+        color: #B1B5C1;
+
+        .navbar-action {
+            padding-left: 15px;
+            cursor: pointer;
+        }
+    }
+}

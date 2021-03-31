@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-    FaBeer,
-    FaHome,
-    FaFolderOpen,
-    FaUsers,
-    FaChartBar,
-    FaChartPie,
-    FaChartLine,
-} from 'react-icons/fa';
+import { FaBeer, FaHome, FaFolderOpen, FaUsers, FaChartBar, FaChartPie, FaChartLine } from 'react-icons/fa';
 import { IconType } from 'react-icons/lib';
 import Main from '../../Layouts/Main/Main';
 import Projects from '../../Pages/Projects/Projects';

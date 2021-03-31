@@ -7,7 +7,7 @@ module.exports = {
   mode: env,
   entry: './src/index.tsx',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'main.js',
     publicPath: '/',
   },
@@ -38,6 +38,7 @@ module.exports = {
             plugins: [
               '@babel/proposal-class-properties',
               '@babel/proposal-object-rest-spread',
+              "@babel/plugin-syntax-optional-chaining"
             ],
           },
         },

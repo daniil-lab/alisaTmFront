@@ -11,12 +11,7 @@ interface ISidebarRoute {
     icon: IconType;
 }
 
-const SidebarRoute: React.FunctionComponent<ISidebarRoute> = ({
-    title,
-    url,
-    children,
-    icon,
-}) => {
+const SidebarRoute: React.FunctionComponent<ISidebarRoute> = ({ title, url, children, icon }) => {
     const Icon = icon;
 
     return (

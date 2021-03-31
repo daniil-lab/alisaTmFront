@@ -9,7 +9,7 @@ const SidebarLogo: React.FunctionComponent = () => {
             {/* <BrandLogo className="sidebar-logo" /> */}
             <BrandLogo />
             {/* <img className="sidebar-logo" src={BrandLogo} /> */}
-        </div> 
+        </div>
     );
 };
 

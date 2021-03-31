@@ -11,9 +11,7 @@ const SidebarTarif: React.FunctionComponent = () => {
             </div>
 
             <div className="sidebar-tarif-body">
-                <p className="sidebar-tarif-status-text">
-                    Использовано 122 из 150 проектов
-                </p>
+                <p className="sidebar-tarif-status-text">Использовано 122 из 150 проектов</p>
 
                 <div className="sidebar-tarif-progress-bar">
                     <div className="sidebar-tarif-progress-bar active" />

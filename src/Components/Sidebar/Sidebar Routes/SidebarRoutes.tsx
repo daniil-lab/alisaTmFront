@@ -8,10 +8,11 @@ const SidebarRoutes: React.FunctionComponent = () => {
     return (
         <div className="sidebar-routes-block">
             <ul className="sidebar-routes-list">
-                {routes.map((group) => {
-                    return group.routes.map((route) => {
+                {routes.map(group => {
+                    return group.routes.map((route, idx) => {
                         return (
                             <SidebarRoute
+                                key={idx}
                                 url={`${window.location.host}${route.layer}${route.url}`}
                                 title={route.name}
                                 icon={route.Icon}

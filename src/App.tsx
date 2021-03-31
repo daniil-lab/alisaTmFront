@@ -1,9 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Projects from './Pages/Projects/Projects';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 // import Main from './Layouts/Main/Main';
 // import Projects from './Pages/Projects/Projects';
 import routes from './Utils/Router/routes';
+
+const NoMatch: React.FunctionComponent = () => {
+    return (
+        <Redirect
+            to={{
+                pathname: '/main/projects',
+            }}
+        />
+    );
+};
 
 const App: React.FC = () => {
     return (
@@ -16,13 +25,14 @@ const App: React.FC = () => {
                         </Switch>
                     </Main>
                 </Route> */}
-                {routes.map((group) => {
+                {routes.map((group, idx) => {
                     return (
-                        <Route path={group.url} exact>
+                        <Route key={idx} path={group.url} exact={true}>
                             <group.component>
                                 <Switch>
-                                    {group.routes.map((route) => (
+                                    {group.routes.map((route, key) => (
                                         <Route
+                                            key={idx}
                                             path={`${route.layer}${route.url}`}
                                             component={route.component}
                                         />
@@ -32,6 +42,7 @@ const App: React.FC = () => {
                         </Route>
                     );
                 })}
+                <Route path="*" component={NoMatch} />
             </Switch>
         </BrowserRouter>
     );

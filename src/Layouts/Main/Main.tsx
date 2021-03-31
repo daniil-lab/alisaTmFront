@@ -14,12 +14,15 @@ const Main: React.FunctionComponent<IMain> = (props: IMain) => {
     const { children } = props;
     return (
         <div className="main-layout">
-            <Sidebar />
-
             <MainWrapper>
-                <Navbar />
-                {children}
-                tett
+                <div className="sidebar-container">
+                    <Sidebar />
+                </div>
+
+                <div className="page-content">
+                    <Navbar />
+                    {children}
+                </div>
             </MainWrapper>
         </div>
     );
