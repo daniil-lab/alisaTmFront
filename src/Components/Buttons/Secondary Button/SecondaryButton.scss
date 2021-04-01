@@ -1,0 +1,23 @@
+.secondary-button-block {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #DCE0E6;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    font-weight: bold;
+    color: #3EBBF1;
+    transition: all .3s;
+    cursor: pointer;
+    margin: 10px 0px;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all .3s;
+    }
+
+    .secondary-button-icon {
+        padding-left: 15px;
+    }
+}

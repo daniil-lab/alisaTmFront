@@ -34,6 +34,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
+            cursor: pointer;
     
             .content-tab-name {
                 display: flex;
@@ -60,5 +61,10 @@
 
     .content-tabs-content {
         padding: 45px;
+    }
+
+    .content-tabs-subheader {
+        padding-left: 45px;
+        padding-top: 15px;
     }
 }

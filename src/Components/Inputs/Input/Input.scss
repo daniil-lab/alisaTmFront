@@ -10,22 +10,24 @@
     }
 
     .base-input {
+        display: flex;
         outline: none;
+        width: 100%;
         border: none;
         padding: 10px;
         background-color: #fff;
         border-radius: 24px;
         border: 1px solid transparent;
+        color: #004146;
+        font-weight: bold;
+        font-size: 14px;
+
+        &.padding {
+            padding-left: 30px;
+        }
 
         &::placeholder {
             color: #DCE0E6;
-        }
-
-        &.padding {
-            
-            &::placeholder {
-                padding-left: 20px;
-            }
         }
 
         &:focus {
@@ -34,7 +36,8 @@
     }
 
     .input-container {
-        
+        display: flex;
+
         .base-input-placeholder-block {
             position: absolute;
 
@@ -42,7 +45,7 @@
                 display: flex;
                 align-items: center;
                 position: relative;
-                padding-top: 8px;
+                padding-top: 10.5px;
                 padding-left: 10px;
                 color: #DCE0E6;
                 font-size: 13.5px;
@@ -51,6 +54,18 @@
                     padding-right: 5px;
                     font-size: 20px;
                 }
+            }
+        }
+
+        .base-input-placeholder-icon {
+            position: absolute;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 8px;
+            color: #DCE0E6;
+
+            &.right {
+                padding-right: 6px;
             }
         }
     }

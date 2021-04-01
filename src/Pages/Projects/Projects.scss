@@ -1,0 +1,114 @@
+.project-subheader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #004146;
+    
+    .project-id {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 25px;
+
+        .project-id-icon {
+            font-size: 20px;
+        }
+
+        .project-id-value {
+            font-size: 18px;
+        }
+    }
+
+    .project-name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .project-name-pencil {
+            display: flex;
+            align-self: flex-start;
+            padding-left: 5px;
+            cursor: pointer;
+            color: #B1B5C1;
+            font-size: 15px;
+        }
+
+        .project-name-input {
+            font-size: 18px;
+            font-weight: bold;
+            color: #004146;
+            max-width: 135px;
+            border: 0;
+            outline: 0;
+            padding-top: 4px;
+            border-bottom: 2px solid transparent;
+
+            &:focus {
+                border-bottom: 2px solid #004146;
+            }
+
+            &::placeholder {
+                color: #DCE0E6;
+                font-size: 14px;
+            }    
+        }
+
+        .project-name-span {
+            position: absolute;
+        }
+    }
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+.services-block {
+
+    .services-block-header {
+        font-size: 18px;
+        color: #004146;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .services-containers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .service-add-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+            border-right: 1px solid #B1B5C1;
+            height: 100%;
+            min-height: 400px;
+
+            .service-header {
+                font-size: 14px;
+                font-weight: bold;
+                color: #004146;
+            }
+        }
+
+        .service-template-add {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+            padding-left: 25px;
+            height: 100%;
+            min-height: 400px;
+
+            .service-header {
+                font-size: 14px;
+                font-weight: bold;
+                color: #004146;
+            }
+        }
+    }
+}

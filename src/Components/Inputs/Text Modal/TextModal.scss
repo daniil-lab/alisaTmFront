@@ -1,0 +1,75 @@
+.text-modal-block {
+    display: flex;
+    flex-direction: column;
+
+    .text-modal {
+        font-weight: bold;
+        color: #3EBBF1;
+        cursor: pointer;
+    }
+
+    .text-modal-label {
+        padding-bottom: 10px;
+        font-weight: 600;
+        color: #004146;
+    }
+
+    .text-modal-input-modal-container {
+        z-index: 10;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+    
+        .text-modal-input-modal {
+            width: 600px;
+            height: 400px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 22px;
+            box-shadow: -1px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    
+            .text-modal-input-values {
+                max-height: 250px;
+                overflow-y: auto;
+    
+                .text-modal-input-value-block {
+                    padding: 10px 0px;
+                    cursor: pointer;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    border-bottom: 1px solid #DCE0E6;
+    
+                    .text-modal-input-value {
+                        color: #004146;
+                        font-weight: bold;
+                    }
+                }
+            }
+    
+            .text-modal-close-block {
+                display: flex;
+                width: 100%;
+                justify-content: flex-end;
+    
+                .text-modal-close-icon {
+                    color: #004146;
+                    font-size: 24px;
+                    cursor: pointer;
+                }
+            }
+    
+            .text-modal-input-search {
+                width: 100%;
+            }
+        }
+    }
+}

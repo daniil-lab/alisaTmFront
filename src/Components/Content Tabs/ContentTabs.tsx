@@ -5,10 +5,11 @@ import './ContentTabs.scss';
 
 interface IContentTabs {
     components: JSX.Element[];
+    subheader?: JSX.Element;
     names: string[];
 }
 
-const ContentTabs: React.FunctionComponent<IContentTabs> = ({ components, names }) => {
+const ContentTabs: React.FunctionComponent<IContentTabs> = ({ components, subheader: Subheader, names }) => {
     const [activeTab, setActiveTab] = useState(0);
 
     const changeActiveTab = (tabKey: number) => setActiveTab(tabKey);
@@ -44,7 +45,7 @@ const ContentTabs: React.FunctionComponent<IContentTabs> = ({ components, names 
                     </div>
                 </div>
             </div>
-
+            <div className="content-tabs-subheader">{Subheader}</div>
             <div className="content-tabs-content">{components[activeTab]}</div>
         </div>
     );
