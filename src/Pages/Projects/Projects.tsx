@@ -158,7 +158,7 @@ const Projects: React.FunctionComponent = () => {
                                 title={"Контакное лицо:"}
                                 divProps={{
                                     style: {
-                                        flex: "1.56 1 auto"
+                                        flex: "1.5 1 auto"
                                     }
                                 }}
                                 values={[
@@ -189,7 +189,7 @@ const Projects: React.FunctionComponent = () => {
                                 title={"Специализация:"}
                                 blockProps={{
                                     style: {
-                                        flex: "0.8 1 auto"
+                                        flex: "1 1 auto"
                                     }
                                 }}
                                 placeholder={"Специализация"}
