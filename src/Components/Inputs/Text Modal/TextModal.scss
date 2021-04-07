@@ -1,17 +1,20 @@
 .text-modal-block {
     display: flex;
     flex-direction: column;
-    padding: 9px;
+    padding: 10px;
+    padding-bottom: 20px;
 
     .text-modal {
         font-weight: bold;
+        font-size: 15.5px;
         color: #3EBBF1;
         cursor: pointer;
+        padding-top: 12px;
     }
 
     .text-modal-label {
-        padding-bottom: 10px;
         font-weight: 600;
+        font-size: 15px;
         color: #004146;
     }
 
